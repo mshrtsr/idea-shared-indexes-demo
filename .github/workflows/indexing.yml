@@ -1,0 +1,21 @@
+# Generate and upload IDEA Shared indexes
+name: 'Indexing'
+on: 
+  push:
+    branches-ignore:
+      - 'gh-pages'
+
+jobs:
+  indexing:
+    runs-on: ubuntu-latest
+    container:
+      image: mshrtsr/idea-shared-indexes-demo:latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: generate indexes
+        run: |
+          /generate-shared-indexes.sh
+        env:
+          PROJECT_NAME: idea-shared-indexes-demo
+          FILE_STORAGE_ROOT_URL: https://mshrtsr.github.io/idea-shared-indexes-demo/indexes
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

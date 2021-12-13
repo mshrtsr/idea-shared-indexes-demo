@@ -12,7 +12,6 @@ RUN unzip cdn-layout-tool-$CDN_LAYOUT_TOOL_VERSION.zip -d /opt/ && mv /opt/cdn-l
 
 FROM ubuntu:20.04 as ubuntu-java-node-intellij-ja-base
 ENV DEBIAN_FRONTEND=noninteractive
-# Copy proxy settings
 RUN set -ex \
     && apt-get update \
     && apt-get install -y curl \
@@ -31,19 +30,17 @@ RUN set -ex \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /var/cache/apt
 
-# Install IntelliJ
+# IntelliJ IDEA Ultimateをインストール
 RUN set -ex \
     && mkdir /opt/idea \ 
     && curl -L https://download.jetbrains.com/idea/ideaIU-2021.2.1.tar.gz | tar -xz -C /opt/idea --strip-components 1
 
-# Setup Java
-# ENV JAVA_HOME /usr/lib/jvm/java-11-amazon-corretto/
-# RUN echo "export JAVA_HOME=${JAVA_HOME}" >> ${HOME}/.bashrc
-
 # https://www.jetbrains.com/help/idea/shared-indexes.html#install-cdn-layout-tool
+# cdn-layout-tool をインストール
 COPY --from=cdn-layout-tool-extractor /opt/cdn-layout-tool /opt/cdn-layout-tool
 
 # https://www.jetbrains.com/help/idea/shared-indexes.html#prepare-ide
+# 共有インデックス作成のための設定
 ENV TEMP /tmp/idea-indexes
 RUN set -ex \
     && mkdir -p $TEMP/ide-system \
@@ -57,6 +54,7 @@ RUN set -ex \
     && echo "idea.plugins.path=$TEMP/ide-plugin" >> $TEMP/ide.properties
 ENV IDEA_PROPERTIES=$TEMP/ide.properties
 
+# 共有インデックス作成スクリプトを追加
 COPY generate-shared-indexes.sh /generate-shared-indexes.sh 
 
 CMD ["bash", "-c", "/generate-shared-indexes.sh"]
