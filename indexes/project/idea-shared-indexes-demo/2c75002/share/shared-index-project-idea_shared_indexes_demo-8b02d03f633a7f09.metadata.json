@@ -1,0 +1,624 @@
+{
+  "metadata_version" : "6",
+  "sources" : {
+    "generated" : "2021-12-14T06:51:01Z[Etc/UTC]",
+    "os" : "linux",
+    "os_name" : "Linux 5.11.0-1022-azure",
+    "kind" : "project",
+    "name" : "idea_shared_indexes_demo",
+    "project_id" : "idea-shared-indexes-demo"
+  },
+  "generation_statistics" : {
+    "file_index_usages" : {
+      "angularjs.app.index" : 0,
+      "angularjs.template.cache" : 0,
+      "angularjs.ui.router.views.index" : 0,
+      "ant-imports" : 6,
+      "BindingXmlIndex" : 0,
+      "bytecodeAnalysis" : 30491,
+      "com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME" : 0,
+      "com.intellij.uiDesigner.FormClassIndex" : 0,
+      "CompassFunctionsIndex" : 1,
+      "css.template.selectors" : 0,
+      "CssIndex" : 0,
+      "devkit.ExtensionPointClassIndex" : 308,
+      "devkit.ExtensionPointIndex" : 308,
+      "docker.compose.services" : 2,
+      "DomFileIndex" : 308,
+      "editorconfig.index.name" : 0,
+      "FileBasedWSIndex" : 0,
+      "fileIncludes" : 31,
+      "FrameworkDetectionIndex" : 6,
+      "FtlFileIndex" : 0,
+      "groovy.cucumber.step" : 0,
+      "groovy.trait.fields" : 0,
+      "groovy.trait.methods" : 0,
+      "GspIncludeIndex" : 0,
+      "HashFragmentIndex" : 0,
+      "html5.custom.attributes.index" : 0,
+      "HtmlTagIdIndex" : 0,
+      "http.request.completion.host" : 0,
+      "http.request.execution.environment" : 2,
+      "http.request.headers.values.index" : 0,
+      "IdeaPluginRegistrationIndex" : 308,
+      "IdIndex" : 19494,
+      "java.binary.plus.expression" : 0,
+      "java.cucumber.java8.step" : 0,
+      "java.fun.expression" : 0,
+      "java.null.method.argument" : 0,
+      "java.source.module.name" : 0,
+      "javafx.custom.component" : 0,
+      "javafx.id.name" : 0,
+      "javafx.stylesheets.name" : 0,
+      "JavaFxControllerClassIndex" : 0,
+      "js.custom.single.entry.index" : 107,
+      "js.implicit.elements.index" : 0,
+      "js.package.index" : 0,
+      "js.string.literal.words.index" : 107,
+      "js.test.names" : 12,
+      "json.file.root.values" : 5,
+      "LombokConfigIndex" : 0,
+      "NavXmlIndex" : 0,
+      "OpenapiSpecificationContentIndexer" : 7,
+      "org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex" : 37,
+      "org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex" : 30491,
+      "org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex" : 0,
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex" : 0,
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex" : 30491,
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex" : 0,
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex" : 0,
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex" : 0,
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex" : 0,
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex" : 0,
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex" : 0,
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex" : 0,
+      "PluginIdDependenciesIndex" : 308,
+      "PluginIdModuleIndex" : 308,
+      "protoeditor.java.outer.class.index" : 0,
+      "RelaxSymbolIndex" : 10,
+      "SchemaTypeInheritance" : 84,
+      "spring.autoConfigureMetadataIndex" : 0,
+      "spring.spiFileIndex" : 0,
+      "SpringXmlBeansIndex" : 308,
+      "sql.routine.index" : 0,
+      "sql.types.count.index" : 0,
+      "taglibUris" : 45,
+      "TodoIndex" : 19,
+      "Trigram.Index" : 19502,
+      "TypeScriptExternalPathCandidates" : 0,
+      "VtlFileIndex" : 0,
+      "XmlNamespaces" : 245,
+      "xmlProperties" : 44,
+      "XmlTagNames" : 84,
+      "XsltSymbolIndex" : 10,
+      "yaml.keys.name" : 2
+    },
+    "stub_file_element_type_usages" : {
+      "CSS.file:CSS" : 6,
+      "java.FILE:JAVA" : 18416,
+      "Language: Flow JS:FILE:Flow JS" : 12,
+      "Language: JavaScript:FILE:JavaScript" : 25,
+      "Language: TypeScript:FILE:TypeScript" : 74,
+      "psi.file:Markdown" : 2,
+      "psi.file:Properties" : 215,
+      "SCSS.file:SCSS" : 8
+    }
+  },
+  "environment" : {
+    "os" : "linux",
+    "os_name" : "Linux 5.11.0-1022-azure",
+    "intellij" : {
+      "product_code" : "IU",
+      "version" : "2021.2.1",
+      "build" : "IU-212.5080.55",
+      "non_bundled_plugins" : [ ]
+    }
+  },
+  "indexes" : {
+    "weak_hash" : "2d53250d4c35",
+    "weak_base_hash" : "1645f8fc6d06",
+    "os" : [ "linux", "mac", "windows" ],
+    "base_versions" : {
+      "hashes_algorithm_version" : "4",
+      "hashes_enumerator_version" : "37259",
+      "inverted_index_version" : "0",
+      "metadata_version" : "6",
+      "persistent_enumerator_version" : "37259",
+      "product_version" : "2021.2",
+      "shared_indexes_format" : "6",
+      "use_btree" : "true",
+      "vfs_version" : "52027"
+    },
+    "file_index_versions" : {
+      "angularjs.app.index" : {
+        "version" : "65:0",
+        "needs_forward_index" : true
+      },
+      "angularjs.template.cache" : {
+        "version" : "65:0",
+        "needs_forward_index" : true
+      },
+      "angularjs.ui.router.views.index" : {
+        "version" : "65:0",
+        "needs_forward_index" : true
+      },
+      "ant-imports" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "BindingXmlIndex" : {
+        "version" : "8:0",
+        "needs_forward_index" : true
+      },
+      "bytecodeAnalysis" : {
+        "version" : "11:0",
+        "needs_forward_index" : false
+      },
+      "com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME" : {
+        "version" : "10:0",
+        "needs_forward_index" : true
+      },
+      "com.intellij.uiDesigner.FormClassIndex" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "CompassFunctionsIndex" : {
+        "version" : "33:0",
+        "needs_forward_index" : true
+      },
+      "css.template.selectors" : {
+        "version" : "30:0",
+        "needs_forward_index" : true
+      },
+      "CssIndex" : {
+        "version" : "35:0",
+        "needs_forward_index" : true
+      },
+      "devkit.ExtensionPointClassIndex" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "devkit.ExtensionPointIndex" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "docker.compose.services" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "DomFileIndex" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "editorconfig.index.name" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "FileBasedWSIndex" : {
+        "version" : "6:0",
+        "needs_forward_index" : true
+      },
+      "fileIncludes" : {
+        "version" : "6:0",
+        "needs_forward_index" : true
+      },
+      "FrameworkDetectionIndex" : {
+        "version" : "65536:0",
+        "needs_forward_index" : true
+      },
+      "FtlFileIndex" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "groovy.cucumber.step" : {
+        "version" : "6:0",
+        "needs_forward_index" : true
+      },
+      "groovy.trait.fields" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "groovy.trait.methods" : {
+        "version" : "32:0",
+        "needs_forward_index" : true
+      },
+      "GspIncludeIndex" : {
+        "version" : "4:0",
+        "needs_forward_index" : true
+      },
+      "HashFragmentIndex" : {
+        "version" : "19111503:0",
+        "needs_forward_index" : true
+      },
+      "html5.custom.attributes.index" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "HtmlTagIdIndex" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "http.request.completion.host" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "http.request.execution.environment" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "http.request.headers.values.index" : {
+        "version" : "4:0",
+        "needs_forward_index" : true
+      },
+      "IdeaPluginRegistrationIndex" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "IdIndex" : {
+        "version" : "17:0",
+        "needs_forward_index" : false
+      },
+      "java.binary.plus.expression" : {
+        "version" : "4:0",
+        "needs_forward_index" : false
+      },
+      "java.cucumber.java8.step" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "java.fun.expression" : {
+        "version" : "6:0",
+        "needs_forward_index" : true
+      },
+      "java.null.method.argument" : {
+        "version" : "1:0",
+        "needs_forward_index" : false
+      },
+      "java.source.module.name" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "javafx.custom.component" : {
+        "version" : "2:0",
+        "needs_forward_index" : true
+      },
+      "javafx.id.name" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "javafx.stylesheets.name" : {
+        "version" : "6:0",
+        "needs_forward_index" : true
+      },
+      "JavaFxControllerClassIndex" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "js.custom.single.entry.index" : {
+        "version" : "291:0",
+        "needs_forward_index" : true
+      },
+      "js.implicit.elements.index" : {
+        "version" : "1007:0",
+        "needs_forward_index" : true
+      },
+      "js.package.index" : {
+        "version" : "12:0",
+        "needs_forward_index" : true
+      },
+      "js.string.literal.words.index" : {
+        "version" : "4:0",
+        "needs_forward_index" : true
+      },
+      "js.test.names" : {
+        "version" : "22:0",
+        "needs_forward_index" : true
+      },
+      "json.file.root.values" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "LombokConfigIndex" : {
+        "version" : "11:0",
+        "needs_forward_index" : true
+      },
+      "NavXmlIndex" : {
+        "version" : "8:0",
+        "needs_forward_index" : true
+      },
+      "OpenapiSpecificationContentIndexer" : {
+        "version" : "9:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex" : {
+        "version" : "4:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex" : {
+        "version" : "4:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex" : {
+        "version" : "2:0",
+        "needs_forward_index" : true
+      },
+      "org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "PluginIdDependenciesIndex" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "PluginIdModuleIndex" : {
+        "version" : "2:0",
+        "needs_forward_index" : true
+      },
+      "protoeditor.java.outer.class.index" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "RelaxSymbolIndex" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "SchemaTypeInheritance" : {
+        "version" : "2:0",
+        "needs_forward_index" : true
+      },
+      "spring.autoConfigureMetadataIndex" : {
+        "version" : "2:0",
+        "needs_forward_index" : true
+      },
+      "spring.spiFileIndex" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "SpringXmlBeansIndex" : {
+        "version" : "622:0",
+        "needs_forward_index" : true
+      },
+      "sql.routine.index" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "sql.types.count.index" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "taglibUris" : {
+        "version" : "7:0",
+        "needs_forward_index" : true
+      },
+      "TodoIndex" : {
+        "version" : "11:0",
+        "needs_forward_index" : true
+      },
+      "Trigram.Index" : {
+        "version" : "3:0",
+        "needs_forward_index" : false
+      },
+      "TypeScriptExternalPathCandidates" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "VtlFileIndex" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "XmlNamespaces" : {
+        "version" : "8:0",
+        "needs_forward_index" : true
+      },
+      "xmlProperties" : {
+        "version" : "2:0",
+        "needs_forward_index" : true
+      },
+      "XmlTagNames" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "XsltSymbolIndex" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "yaml.keys.name" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      }
+    },
+    "stub_index_versions" : {
+      "amd.baseUrl.index" : "46:2",
+      "amd.requirePaths.index" : "46:2",
+      "angular2.ivy.directive.index" : "46:9",
+      "angular2.ivy.module.index" : "46:9",
+      "angular2.ivy.pipe.index" : "46:9",
+      "angular2.metadata.className.index" : "46:9",
+      "angular2.metadata.directive.index" : "46:9",
+      "angular2.metadata.function.index" : "46:9",
+      "angular2.metadata.module.index" : "46:9",
+      "angular2.metadata.node.index" : "46:9",
+      "angular2.metadata.pipe.index" : "46:9",
+      "angular2.source.directive.index" : "46:9",
+      "angular2.source.module.index" : "46:9",
+      "angular2.source.pipe.index" : "46:9",
+      "angular2.templateUrl.index" : "46:9",
+      "angularjs.controller.index" : "46:65",
+      "angularjs.delimiter.index" : "46:65",
+      "angularjs.directives.doc.index" : "46:65",
+      "angularjs.directives.index" : "46:65",
+      "angularjs.filter.index" : "46:65",
+      "angularjs.generic.modules.index" : "46:65",
+      "angularjs.module.index" : "46:65",
+      "angularjs.symbol.index" : "46:65",
+      "angularjs.templateUrl.index" : "46:65",
+      "angularjs.ui.router.generic.states.index" : "46:65",
+      "angularjs.ui.router.states.index" : "46:65",
+      "Css.ampersand.selector" : "46:2",
+      "Css.attr" : "46:2",
+      "Css.class" : "46:2",
+      "Css.custom.mixin" : "46:2",
+      "Css.custom.property" : "46:2",
+      "Css.id" : "46:2",
+      "dom.elementClass" : "46:0",
+      "dom.namespaceKey" : "46:1",
+      "es6.assignment.index" : "46:2",
+      "es6.exported.index" : "46:2",
+      "gr.annot.members" : "46:2",
+      "gr.annot.method.name" : "46:2",
+      "gr.anonymous.class" : "46:3",
+      "gr.class.fqn" : "46:1",
+      "gr.class.super" : "46:2",
+      "gr.field.name" : "46:2",
+      "gr.method.name" : "46:2",
+      "gr.script.class" : "46:2",
+      "gr.script.fqn" : "46:2",
+      "java.annotations" : "46:2",
+      "java.anonymous.baseref" : "46:2",
+      "java.class.extlist" : "46:3",
+      "java.class.fqn" : "46:1",
+      "java.class.shortname" : "46:4",
+      "java.field.name" : "46:2",
+      "java.method.name" : "46:2",
+      "java.method.parameter.types" : "46:3",
+      "java.module.name" : "46:4",
+      "js.amd.modules" : "46:2",
+      "JS.base.types.index" : "46:3",
+      "JS.class.implements" : "46:3",
+      "js.class.index2" : "46:3",
+      "JS.class.super" : "46:5",
+      "JS.custom.stub.index" : "46:2",
+      "js.doc.modules" : "46:2",
+      "js.element.qualifiedName" : "46:3",
+      "js.exported.index" : "46:2",
+      "js.gcl.modules" : "46:2",
+      "js.generics.index" : "46:2",
+      "JS.global.qualified.elements" : "46:3",
+      "js.global.symbol.index" : "46:2",
+      "js.imported.bindings.index" : "46:2",
+      "js.lazy.packages" : "46:3",
+      "js.local.namespace.members.index" : "46:2",
+      "js.namespace.index" : "46:2",
+      "js.nonglobal.symbol.index" : "46:2",
+      "js.qualified.shortName" : "46:4",
+      "JS.subclass.stub.index" : "46:2",
+      "js.symbol.index2" : "46:6",
+      "js.symbol.qualified.names.index" : "46:1",
+      "js.typedef.index2" : "46:2",
+      "jvm.static.member.name" : "46:2",
+      "jvm.static.member.type" : "46:2",
+      "Less.mixins" : "46:2",
+      "Less.variables" : "46:2",
+      "markdown.header" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex" : "46:3",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex" : "46:3",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex" : "46:2",
+      "org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex" : "46:2",
+      "properties.index" : "46:2",
+      "protobuf.byQualifiedName" : "46:2",
+      "protobuf.byShortName" : "46:2",
+      "Scss.function" : "46:2",
+      "Scss.mixin" : "46:2",
+      "Scss.placeholder.selector" : "46:2",
+      "Scss.variable" : "46:2",
+      "sql.column.name" : "46:3",
+      "sql.names" : "46:21",
+      "sql.table.shortName" : "46:3",
+      "Stylus.mixins" : "46:2",
+      "Stylus.variables" : "46:2",
+      "ts.embedded.content.index" : "46:2",
+      "ts.external.module.index" : "46:3",
+      "ts.local.classes" : "46:2"
+    },
+    "stub_file_element_type_versions" : {
+      "CSS.file:CSS" : "30",
+      "groovy.FILE:Groovy" : "51",
+      "java.FILE:JAVA" : "53",
+      "kotlin.FILE:kotlin" : "140",
+      "Language: ECMA Script Level 4:FILE:ECMA Script Level 4" : "1004",
+      "Language: ECMAScript 6:FILE:ECMAScript 6" : "1004",
+      "Language: Flow JS:FILE:Flow JS" : "1004",
+      "Language: JavaScript:FILE:JavaScript" : "1004",
+      "Language: TypeScript JSX:FILE:TypeScript JSX" : "1004",
+      "Language: TypeScript:FILE:TypeScript" : "1004",
+      "less.file:LESS" : "30",
+      "protobuf.file:protobuf" : "0",
+      "psi.file:Angular2Html" : "1037",
+      "psi.file:Angular2Svg" : "1007",
+      "psi.file:FTL>" : "0",
+      "psi.file:HTML" : "1037",
+      "psi.file:JSP" : "4",
+      "psi.file:Markdown" : "0",
+      "psi.file:Properties" : "0",
+      "SASS.file:SASS" : "30",
+      "SCSS.file:SCSS" : "30",
+      "sql.SQL_FILE:SQL" : "28",
+      "stylus.file:Stylus" : "30"
+    },
+    "composite_binary_stub_file_builder_versions" : {
+      "CLASS" : "com.intellij.psi.impl.compiled.ClassFileStubBuilder:26;com.intellij.psi.impl.compiled.ClsDecompilerImpl:53;org.jetbrains.kotlin.ide.konan.decompiler.KotlinNativeMetadataDecompiler:28;org.jetbrains.kotlin.idea.decompiler.builtIns.KotlinBuiltInDecompiler:105;org.jetbrains.kotlin.idea.decompiler.classFile.KotlinClassFileDecompiler:102;org.jetbrains.kotlin.idea.decompiler.js.KotlinJavaScriptMetaFileDecompiler:105",
+      "KJSM" : "com.intellij.psi.impl.compiled.ClassFileStubBuilder:26;com.intellij.psi.impl.compiled.ClsDecompilerImpl:53;org.jetbrains.kotlin.ide.konan.decompiler.KotlinNativeMetadataDecompiler:28;org.jetbrains.kotlin.idea.decompiler.builtIns.KotlinBuiltInDecompiler:105;org.jetbrains.kotlin.idea.decompiler.classFile.KotlinClassFileDecompiler:102;org.jetbrains.kotlin.idea.decompiler.js.KotlinJavaScriptMetaFileDecompiler:105",
+      "KNM" : "com.intellij.psi.impl.compiled.ClassFileStubBuilder:26;com.intellij.psi.impl.compiled.ClsDecompilerImpl:53;org.jetbrains.kotlin.ide.konan.decompiler.KotlinNativeMetadataDecompiler:28;org.jetbrains.kotlin.idea.decompiler.builtIns.KotlinBuiltInDecompiler:105;org.jetbrains.kotlin.idea.decompiler.classFile.KotlinClassFileDecompiler:102;org.jetbrains.kotlin.idea.decompiler.js.KotlinJavaScriptMetaFileDecompiler:105",
+      "kotlin_builtins" : "com.intellij.psi.impl.compiled.ClassFileStubBuilder:26;com.intellij.psi.impl.compiled.ClsDecompilerImpl:53;org.jetbrains.kotlin.ide.konan.decompiler.KotlinNativeMetadataDecompiler:28;org.jetbrains.kotlin.idea.decompiler.builtIns.KotlinBuiltInDecompiler:105;org.jetbrains.kotlin.idea.decompiler.classFile.KotlinClassFileDecompiler:102;org.jetbrains.kotlin.idea.decompiler.js.KotlinJavaScriptMetaFileDecompiler:105",
+      "XML" : "com.intellij.util.xml.stubs.builder.DomStubBuilder:23;beans:beans:com.intellij.spring.dom.SpringDomFileDescription;dialect:dialect:com.intellij.thymeleaf.dialects.xml.ThymeleafDialectDomFileDescription;faces-config:faces-config:com.intellij.jsf.FacesDomFileDescription;idea-plugin:idea-plugin:org.jetbrains.idea.devkit.dom.impl.PluginDescriptorDomFileDescription;web-app:web-app:com.intellij.javaee.web.WebDomFileDescription"
+    },
+    "hash_provider_versions" : { }
+  }
+}
